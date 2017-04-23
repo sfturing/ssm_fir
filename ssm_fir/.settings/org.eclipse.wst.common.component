@@ -7,6 +7,6 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
         <property name="context-root" value="/ssm_fir"/>
-        <property name="java-output-path" value="/ssm_fir/src/main/webapp/src/main/java"/>
+        <property name="java-output-path" value="/ssm_fir/WebContent/src/main/java"/>
     </wb-module>
 </project-modules>
