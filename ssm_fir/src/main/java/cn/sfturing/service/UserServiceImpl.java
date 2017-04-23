@@ -16,7 +16,9 @@ import cn.sfturing.pojo.User;
 public class UserServiceImpl implements UserService {
 	@Autowired
 	private UserDao userDao;
-	
+	/**
+	 * sfturing
+	 */
 	public User selectUserById(Integer userId) {
 		
 		return userDao.selectUserById(userId);
